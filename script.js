@@ -27,6 +27,28 @@ var w=(width-margin.left)/14;
 //set up tooltips and transformations
 var tooltip=d3.select("#tooltip");
 var textanchor=w/3;
+
+
+
+//append labels
+var label=svg.append("g").attr("class","label");
+var label1=label.append("text")
+                .attr("x",1.8*w)
+                .attr("y",height+30)
+                .text(function(d){return "VIDEOS(K)"})
+              
+var label2=label.append("text")
+                .attr("x",6.2*w)
+                .attr("y",height+30)
+                .text(function(d){return "ENGAGEMENTS(M)"})
+            
+var label3=label.append("text")
+                .attr("x",11.8*w)
+                .attr("y",height+30)
+                .text(function(d){return "VIEWS(B)"})
+             
+                
+
 //draw the barcharts
 
 var barFox=svg.append("g");         
