@@ -36,54 +36,21 @@ h1{
 
 .title p{
     font-size: 15px;
+    color:black;
+    opacity: .8;
+    font-style: italic;
+}
+
+.label{
+ 
+    font-family: sans-serif;
+    font-size: 15px;
     color:#351d1b;
     opacity: .8;
     font-style: italic;
 }
 
-.label1{
- 
-    width:80%;
-    margin-left: 10%;
-    z-index: 30;
-    font-family: sans-serif;
-    position: absolute;
-    font-size: 15px;
-    margin-top: 50%;
-    margin-left: 23%;
-    color:#351d1b;
-    opacity: .8;
-    font-style: italic;
-}
 
-.label2{
- 
-    width:80%;
-    margin-left: 10%;
-    z-index: 30;
-    font-family: sans-serif;
-    position: absolute;
-    font-size: 15px;
-    margin-top: 50%;;
-    margin-left: 46%;
-    color:#351d1b;
-    opacity: .8;
-    font-style: italic;
-}
-.label3{
- 
-    width:80%;
-    margin-left: 10%;
-    z-index: 30;
-    font-family: sans-serif;
-    position: absolute;
-    font-size: 15px;
-    margin-top: 50%;;
-    margin-left: 72%;
-    color:#351d1b;
-    opacity: .8;
-    font-style: italic;
-}
 
 
 #cbstext,#foxtext,#abctext,#nbctext{
